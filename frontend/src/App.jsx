@@ -10,7 +10,7 @@ import JobListings from './pages/JobListings';
 import './App.css';
 import StudentProfile from './profiles/StudentProfile';
 import JobStatus from './pages/JobStatus';
-import JobDetails from './pages/jobDetails';
+import JobDetails from './pages/JobDetails';
 import SelectionDashboard from './components/SelectionDashboard';
 import RoundManagement from './pages/RoundManagement';
 import CompanyProfile from './profiles/CompanyProfile';
