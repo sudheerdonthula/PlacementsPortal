@@ -16,6 +16,7 @@ import RoundManagement from './pages/RoundManagement';
 import CompanyProfile from './profiles/CompanyProfile';
 import JobPosting from './pages/JobPosting';
 import CompanyStudentProfile from './profiles/CompanyStudentProfile';
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
             <Route path="/company/student-profile/:studentId" element={<CompanyStudentProfile />} />
             <Route path="*" element={<div>404 Not Found</div>} />
           </Routes>
+          <Analytics />
         </div>
       </Router>
     </AuthProvider>
